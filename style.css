@@ -1,0 +1,37 @@
+*{
+    margin: 0;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 11pt;
+}
+
+body {
+    /* For A4 Sheet */
+    width: 21cm; /* A4 Width in cm */
+    height: 29.7cm; /* A4 Height in cm */
+    background-color: white; 
+    border: 1px solid #ccc; 
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); 
+    margin: 10px auto;  
+    padding: 2cm; 
+    box-sizing: border-box; 
+    overflow-y: auto; 
+    max-height: 95vh; 
+}
+
+#name{
+    font-size: 14pt;
+}
+
+#personal{
+    text-align: center;
+}
+
+.flex-d{
+    margin: 0;
+    display: flex;
+    justify-content: space-between;
+}
+
+td{
+    padding: 0px 40px 10px 40px;
+}
